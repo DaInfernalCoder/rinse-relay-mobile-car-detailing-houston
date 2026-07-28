@@ -15,6 +15,7 @@ Create and launch Rinse Relay Mobile Car Detailing Houston as site 28 of the 100
 - Approval boundary: exact-domain approval is the only launch gate and authorizes the standard automated GitHub, Vercel, custom-host, and DNS workflow
 - GitHub: https://github.com/DaInfernalCoder/rinse-relay-mobile-car-detailing-houston
 - Vercel project: https://vercel.com/dainfernalcoders-projects/rinse-relay-mobile-car-detailing-houston
+- GitHub-to-Vercel automatic deployments: connected
 - Production fallback: https://rinse-relay-mobile-car-detailing-ho.vercel.app
 - Attached custom hosts: `rinserelay.shop`, `www.rinserelay.shop`
 - Registrar nameservers saved: `ns1.vercel-dns.com`, `ns2.vercel-dns.com`
