@@ -13,6 +13,12 @@ Create and launch Rinse Relay Mobile Car Detailing Houston as site 28 of the 100
 - Booking: https://cal.com/sumitdatta/auto-detail-service
 - Build method: cloned from a validated site family through `scripts/scaffold_sites_from_csv.py`
 - Approval boundary: exact-domain approval is the only launch gate and authorizes the standard automated GitHub, Vercel, custom-host, and DNS workflow
+- GitHub: https://github.com/DaInfernalCoder/rinse-relay-mobile-car-detailing-houston
+- Vercel project: https://vercel.com/dainfernalcoders-projects/rinse-relay-mobile-car-detailing-houston
+- Production fallback: https://rinse-relay-mobile-car-detailing-ho.vercel.app
+- Attached custom hosts: `rinserelay.shop`, `www.rinserelay.shop`
+- Registrar nameservers saved: `ns1.vercel-dns.com`, `ns2.vercel-dns.com`
+- Custom-domain DNS and HTTPS: propagation pending
 
 ## Truth constraints
 
@@ -24,8 +30,8 @@ Phone and street address have not been supplied. Do not invent them. Licensed st
 - [x] Exact domain and price approved
 - [x] Domain registered
 - [x] Local preflight and browser QA passed
-- [ ] Public GitHub repository and Vercel production project created
-- [ ] Apex and `www` attached; registrar DNS saved
+- [x] Public GitHub repository and Vercel production project created
+- [x] Apex and `www` attached; registrar DNS saved
 - [ ] Phone supplied and call links completed
 - [ ] Address supplied and final `GMB-INFO.txt` completed
 - [ ] GMB image pack completed
@@ -37,8 +43,8 @@ Rinse Relay Mobile Car Detailing Houston helps Houston drivers arrange careful i
 
 ## Blocker
 
-Phone and address are required for final call links and GMB completion.
+Phone and address are required for the public call links, final `GMB-INFO.txt`, GMB image pack, and GeoStamp completion.
 
 ## Exact next action
 
-Publish to GitHub, deploy to Vercel, and connect registrar DNS automatically.
+Await the public phone and confirmed street address. In a later run, verify propagated apex and `www` once, then complete call links, `GMB-INFO.txt`, the GMB image pack, and GeoStamp.
